@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mcm.edu.ph.aguiilar_multicalc">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aguiilar_MultiCalc"
+        tools:targetApi="31">
+        <activity
+            android:name=".MenuGeometry"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPhysics"
+            android:exported="false" />
+        <activity
+            android:name=".Velocity"
+            android:exported="false" />
+        <activity
+            android:name=".Force"
+            android:exported="false" />
+        <activity
+            android:name=".Weight"
+            android:exported="false" />
+        <activity
+            android:name=".Density"
+            android:exported="false" />
+        <activity
+            android:name=".Capsule"
+            android:exported="false" />
+        <activity
+            android:name=".Cylinder"
+            android:exported="false" />
+        <activity
+            android:name=".Sphere"
+            android:exported="false" />
+        <activity
+            android:name=".Cone"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

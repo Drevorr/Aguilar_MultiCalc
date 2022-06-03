@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MenuPhysics">
+
+    <Button
+        android:id="@+id/btnDensity"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:text="DENSITY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWeight" />
+
+    <Button
+        android:id="@+id/btnWeight"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="88dp"
+        android:text="WEIGHT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVelocity"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:text="VELOCITY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDensity" />
+
+    <Button
+        android:id="@+id/btnForce"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:text="FORCE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVelocity" />
+
+    <Button
+        android:id="@+id/btnBackPhys"
+        android:layout_width="144dp"
+        android:layout_height="57dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnForce"
+        app:layout_constraintVertical_bias="0.294" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
